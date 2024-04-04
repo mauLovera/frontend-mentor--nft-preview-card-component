@@ -1,7 +1,9 @@
-import Card from "@/components/Card";
+import Card from "@/components/Card"
 
 export default function Home() {
-  return <main>
-    <Card />
-  </main>
+  return (
+    <main>
+      <Card />
+    </main>
+  )
 }

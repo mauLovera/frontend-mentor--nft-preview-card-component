@@ -17,9 +17,9 @@ export default function Card() {
         />
         <ViewIcon className="absolute inset-0 m-auto opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
       </div>
-      <h2 className="mb-4 cursor-pointer text-[22px] leading-[28px] transition-colors duration-300 hover:text-primary-cyan font-semibold">
+      <h1 className="mb-4 cursor-pointer text-[22px] leading-[28px] transition-colors duration-300 hover:text-primary-cyan font-semibold">
         Equilibrium #3429
-      </h2>
+      </h1>
       <p className="mb-5 font-light leading-[1.5] text-primary-soft-blue">
         Our Equilibrium collection promotes balance and calm.
       </p>
