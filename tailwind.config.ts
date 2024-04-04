@@ -7,13 +7,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+    colors: {
+      primary: {
+        "soft-blue": "hsl(215, 51%, 70%)",
+        "cyan": "hsl(178, 100%, 50%)",
       },
-    },
+      neutral: {
+        "body-bg": "hsl(217, 54%, 11%)",        
+        "card-bg": "hsl(216, 50%, 16%)",        
+        "line": "hsl(215, 32%, 27%)",        
+        "white": "hsl(0, 0%, 100%)",        
+      }
+    }
   },
   plugins: [],
 };
